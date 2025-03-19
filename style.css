@@ -1,0 +1,97 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.main-content {
+    width: 100;
+    background-image: url('pngtree-workplace-with-laptop-on-table-at-home-picture-image_15476147.jpg');
+    background-repeat: no-repeat;
+    background-size: 100rem 50rem;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+.content {
+    display: flex;
+    width: 45%;
+    height: auto;
+    padding: 50px;
+    background-color: rgb(168, 188, 226, 0.2);
+   
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 20px;
+    width: 40%;
+    /* height: 200rem; */
+}
+
+/* .right-section {
+    flex: 1;
+} */
+
+/* .beach-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+} */
+
+h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+    color: #1b1b1b;
+}
+
+.apply-button {
+    background-color: #ff9800;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #f57c00;
+}
+
+.read-more {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* .footer {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+} */
