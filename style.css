@@ -107,7 +107,7 @@ body {
 }
 
 .experience_section_container {
-  padding: 7% 7% 10% 10%;
+  padding: 7% 7% 5% 10%;
   height: 100%;
 
   display: flex;
@@ -225,11 +225,11 @@ body {
 
   img {
     height: 50%;
-    width: auto;
+    width: 100%;
   }
 
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: unset;
     line-height: 1.5;
     padding: 8% 0% 8% 5%;
@@ -311,15 +311,16 @@ body {
 }
 
 .who_apply_action {
-  height: 60rem;
+  /* height: 100rem; */
   width: auto;
   display: flex;
   position: relative;
   justify-content: center;
+  /* margin-bottom: 20%; */
 
   .who_img_action {
     /* height: 50%; */
-    padding-bottom: 10%;
+    /* padding-bottom: 10%; */
     width: 55%;
   }
 
@@ -329,6 +330,7 @@ body {
     padding-top: 3%;
     padding-left: 8%;
     padding-right: 8%;
+    padding-bottom: 20%;
 
     display: flex;
     flex-direction: column;
@@ -354,4 +356,69 @@ body {
   justify-self: center;
   margin-top: 5%;
   margin-left: 35%;
+  margin-bottom: 30%;
+}
+
+.benefits_section {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  height: 100svh;
+  padding: 10% 20% 20% 20%;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+  h1 {
+    font-size: 3.6rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+}
+
+.benefits {
+  width: 100%;
+  padding: 3%;
+  background-color: white;
+  border-radius: 8px;
+  /* font-size: 1.3rem; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img {
+    width: 6rem;
+    height: 6rem;
+    margin-right: 2rem;
+  }
+}
+
+.benefits_textbox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* align-items: start;
+  text-align: justify; */
+
+  h3 {
+    font-size: 1.3rem;
+    width: 40%;
+    color: #333;
+    padding-right: 5%;
+    border-right: solid;
+    border-color: #c0bbbb;
+  }
+  span {
+    color: #666;
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: unset;
+    padding-left: 5%;
+  }
 }
