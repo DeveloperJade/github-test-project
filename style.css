@@ -413,6 +413,7 @@ body {
     border-right: solid;
     border-color: #c0bbbb;
   }
+
   span {
     color: #666;
     width: 100%;
@@ -421,4 +422,113 @@ body {
     font-weight: unset;
     padding-left: 5%;
   }
+}
+
+.winter_section {
+  height: 100svh;
+  background-image: url("assets/img/man_on_laptop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.5;
+
+  img {
+    max-width: 60%;
+  }
+
+  h1 {
+    font-size: 3.8rem;
+    color: #fff;
+    padding-right: 20%;
+  }
+
+  p {
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 1.4rem;
+
+    padding-top: 3%;
+    padding-bottom: 7%;
+  }
+
+  span {
+    font-family: sans-serif, arial;
+    color: #fff;
+    font-weight: unset;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    padding-top: 3%;
+    padding-bottom: 7%;
+  }
+
+  .winter_section_container {
+    background-color: hsla(216, 89%, 43%, 0.9);
+    padding: 5% 3% 10% 12%;
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    .winter_section_action {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      button {
+        height: 5rem;
+        width: 70%;
+        background-color: #f0a416;
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+.footer_container {
+  height: 30svh;
+  background-color: black;
+  padding: 5% 13% 15% 13%;
+  display: flex;
+  flex-direction: row;
+
+  .footer_textbox {
+    height: auto;
+    width: 70%;
+    color: #fff;
+
+    .mark {
+      font-weight: bolder;
+      font-family: sans-serif;
+      font-size: 4rem;
+    }
+    p {
+      font-family: sans-serif;
+      font-weight: lighter;
+      line-height: 1.5;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.footer_img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    max-height: 5rem;
+    padding-left: 20%;
+
+    
+
+  }
+}
+.footer_logo {
+  color: #fff;
 }
